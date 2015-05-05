@@ -17,7 +17,7 @@ describe('simple', function() {
       var fs = require('fs')
 
       fs.readFile(outputFile, function(err, data) {
-        expect(result.css.toString()).to.equal(data.toString())
+        expect(result.css.toString().trim()).to.equal(data.toString().trim())
         done()
       })
     };
@@ -39,7 +39,7 @@ describe('simple', function() {
       var fs = require('fs')
 
       fs.readFile(outputFile, function(err, data) {
-        expect(result.css.toString()).to.equal(data.toString())
+        expect(result.css.toString().trim()).to.equal(data.toString().trim())
         done()
       })
     };
