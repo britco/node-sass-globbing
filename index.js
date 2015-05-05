@@ -49,5 +49,6 @@ module.exports = function(url, prev, done) {
     })
 
     done(ret)
+    return void 0;
   })
 };
