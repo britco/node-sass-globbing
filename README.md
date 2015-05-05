@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/britco/node-sass-globbing.svg?branch=master)](https://travis-ci.org/britco/node-sass-globbing)
 [![Dependency Status](https://david-dm.org/britco/node-sass-globbing.svg)](https://david-dm.org/britco/node-sass-globbing)
-[![npm](https://img.shields.io/npm/v/node-sass-globbing.svg)]()
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/node-sass-globbing)
 
 Allows you to use glob syntax in imports (i.e. `@import "dir/*.sass"`). Use as a custom importer for node-sass.
 
