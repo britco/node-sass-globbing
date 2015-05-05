@@ -22,8 +22,7 @@ Then you can import globs!
 @import "dir/*.sass"
 ````
 
-###
-Tests
+### Tests
 
 ````
 npm test
