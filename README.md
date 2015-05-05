@@ -22,5 +22,12 @@ Then you can import globs!
 @import "dir/*.sass"
 ````
 
+###
+Tests
+
+````
+npm test
+````
+
 ### License
 Available under the [MIT License](LICENSE.md).
