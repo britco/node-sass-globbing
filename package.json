@@ -1,0 +1,22 @@
+{
+  "name": "node-sass-globbing",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/britco/node-sass-globbing.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/britco/node-sass-globbing/issues"
+  },
+  "homepage": "https://github.com/britco/node-sass-globbing",
+  "dependencies": {
+    "glob": "^5.0.5"
+  }
+}
