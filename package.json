@@ -1,10 +1,10 @@
 {
   "name": "node-sass-globbing",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test"
+    "test": "./node_modules/.bin/mocha -R spec test"
   },
   "repository": {
     "type": "git",
