@@ -39,6 +39,6 @@ module.exports = function(url, prev, done) {
       ret.contents += '@import "|prev=' + prev + '|' + file + "\";\n"
     })
 
-    done(ret)
+    return done(ret)
   })
 };
