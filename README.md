@@ -3,6 +3,8 @@
 Allows you to use glob syntax in imports (i.e. `@import "dir/*.sass"`). Use as a custom importer for node-sass.
 
 ### Example
+
+gulpfile.js
 ````
 nodeSassGlobbing = require('node-sass-globbing');
 
@@ -15,6 +17,7 @@ sass.render({
 
 Then you can import globs!
 
+foo.sass
 ````
 @import "dir/*.sass"
 ````
