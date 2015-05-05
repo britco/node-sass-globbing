@@ -2,8 +2,6 @@ glob = require('glob')
 path = require('path')
 
 module.exports = function(url, prev, done) {
-  this.prev_list = this.prev_list || []
-
   if(!glob.hasMagic(url)) {
     // normal url, resolve to an import of the file
     if(url.indexOf('|prev=') === 0) {
@@ -18,7 +16,6 @@ module.exports = function(url, prev, done) {
         url = url.replace(prev_re, '')
         url = path.resolve(prev_dir, url)
         return done({file: url})
-
       }
     } else {
       return done({file: url})
